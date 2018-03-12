@@ -383,7 +383,7 @@ switch (_typeofUnit) do
 // LOADOUT: COMMANDER
 	case "ftl":
 	{
-		_unit setUnitLoadout [["hlc_rifle_FAL5000","","","",["hlc_20Rnd_762x51_B_fal",20],[],""],[],["hgun_Rook40_F","","","",["16Rnd_9x21_Mag",17],[],""],["rhsgref_uniform_ttsko_forest",[["ACRE_PRC343",1],["ACE_bloodIV_250",1],["ACE_fieldDressing",10],["ACE_epinephrine",1],["ACE_morphine",10],["ACRE_PRC152",1]]],["rhsgref_6b23_khaki_nco",[["16Rnd_9x21_Mag",3,17],["hlc_20Rnd_762x51_B_fal",3,20],["rhs_mag_rgo",1,1],["SmokeShell",4,1]]],["B_AssaultPack_rgr",[["hlc_20Rnd_762x51_B_fal",7,20],["rhs_mag_rgo",1,1],["SmokeShell",1,1],["SmokeShellBlue",1,1],["SmokeShellGreen",1,1],["SmokeShellPurple",1,1]]],"rhsgref_fieldcap_ttsko_forest","",[],["ItemMap","","","ItemCompass","ItemWatch",""]];
+		_unit setUnitLoadout [["hlc_rifle_FAL5000","","","",["hlc_20Rnd_762x51_B_fal",20],[],""],[],["hgun_Rook40_F","","","",["16Rnd_9x21_Mag",17],[],""],["rhsgref_uniform_ttsko_forest",[["ACRE_PRC343",1],["ACE_bloodIV_250",1],["ACE_fieldDressing",10],["ACE_epinephrine",1],["ACE_morphine",10],["ACRE_PRC152",1]]],["rhsgref_6b23_khaki_nco",[["16Rnd_9x21_Mag",3,17],["hlc_20Rnd_762x51_B_fal",3,20],["rhs_mag_rgo",1,1],["SmokeShell",4,1]]],["B_AssaultPack_rgr",[["ACRE_PRC148",1],["hlc_20Rnd_762x51_B_fal",7,20],["rhs_mag_rgo",1,1],["SmokeShell",1,1],["SmokeShellBlue",1,1],["SmokeShellGreen",1,1],["SmokeShellPurple",1,1]]],"rhsgref_fieldcap_ttsko_forest","",[],["ItemMap","ItemGPS","","ItemCompass","ItemWatch",""]];
 	};
 	
 	
@@ -395,7 +395,7 @@ switch (_typeofUnit) do
 	
 	case "pilot":
 	{
-		_unit setUnitLoadout [["hlc_smg_mp510","","","",["hlc_30Rnd_10mm_B_MP5",30],[],""],[],[],["rhsgref_uniform_ttsko_forest",[["ACE_bloodIV_250",1],["ACE_fieldDressing",10],["ACE_epinephrine",1],["ACE_morphine",10],["ACRE_PRC152",1],["ACRE_PRC343",1]]],["rhsgref_6b23_khaki",[["rhs_mag_rgo",2,1],["SmokeShell",4,1],["SmokeShellBlue",1,1],["hlc_30Rnd_10mm_B_MP5",4,30]]],["B_FieldPack_oli",[["ToolKit",1],["hlc_30Rnd_10mm_JHP_MP5",3,30],["ACE_M14",2,1],["ACE_Chemlight_HiYellow",2,1]]],"H_PilotHelmetHeli_O","",[],["ItemMap","","","ItemCompass","ItemWatch",""]];
+		_unit setUnitLoadout [["hlc_smg_mp510","","","",["hlc_30Rnd_10mm_B_MP5",30],[],""],[],[],["rhsgref_uniform_ttsko_forest",[["ACE_bloodIV_250",1],["ACE_fieldDressing",10],["ACE_epinephrine",1],["ACE_morphine",10],["ACRE_PRC152",1],["ACRE_PRC343",1]]],["rhsgref_6b23_khaki",[["rhs_mag_rgo",2,1],["SmokeShell",4,1],["SmokeShellBlue",1,1],["hlc_30Rnd_10mm_B_MP5",4,30]]],["B_FieldPack_oli",[["ToolKit",1],["ACRE_PRC148",1],["hlc_30Rnd_10mm_JHP_MP5",3,30],["ACE_M14",2,1],["ACE_Chemlight_HiYellow",2,1]]],"H_PilotHelmetHeli_O","",[],["ItemMap","ItemGPS","","ItemCompass","ItemWatch",""]];
 	};
 	
 	
@@ -455,6 +455,7 @@ switch (_typeofUnit) do
 		clearBackpackCargoGlobal _unit;
 		
 		_unit addItemCargoGlobal ["hlc_rifle_FAL5000", 2];
+		_unit addItemCargoGlobal ["rhs_weap_m240G", 1];
 		_unit addItemCargoGlobal ["hgun_Rook40_F", 2];
 		_unit addItemCargoGlobal ["rhs_weap_m72a7", 4];
 
@@ -483,7 +484,79 @@ switch (_typeofUnit) do
 		
 		_unit addItemCargoGlobal ["Toolkit", 1];
 	};
+	
+	
+	case "crate_small":
+	{
+		clearWeaponCargoGlobal _unit;
+		clearMagazineCargoGlobal _unit;
+		clearItemCargoGlobal _unit;
+		clearBackpackCargoGlobal _unit;
+		
+		_unit addItemCargoGlobal ["hlc_rifle_FAL5000", 2];
+		_unit addItemCargoGlobal ["rhs_weap_m240G", 1];
+		_unit addItemCargoGlobal ["hgun_Rook40_F", 2];
+		_unit addItemCargoGlobal ["rhs_weap_m72a7", 1];
+		
+		_unit addItemCargoGlobal ["optic_MRCO", 1];
+		_unit addItemCargoGlobal ["B_FieldPack_oli", 2];
 
+		_unit addItemCargoGlobal ["ACE_fieldDressing", 10];
+		_unit addItemCargoGlobal ["ACE_epinephrine", 5];
+		_unit addItemCargoGlobal ["ACE_morphine", 10];
+		_unit addItemCargoGlobal ["ACE_bloodIV", 3];
+
+		_unit addItemCargoGlobal ["hlc_20Rnd_762x51_B_fal", 10];
+		_unit addItemCargoGlobal ["hlc_20Rnd_762x51_T_fal", 3];
+		_unit addItemCargoGlobal ["16Rnd_9x21_Mag", 6];
+		_unit addItemCargoGlobal ["rhsusf_100Rnd_762x51_m80a1epr", 1];
+		_unit addItemCargoGlobal ["rhsusf_100Rnd_762x51_m62_tracer", 1];
+		_unit addItemCargoGlobal ["ACE_SpareBarrel", 1];
+
+		_unit addItemCargoGlobal ["rhs_mag_rgo", 4];
+		_unit addItemCargoGlobal ["SmokeShell", 4];
+
+		_unit addItemCargoGlobal ["ACRE_PRC343", 2];
+		_unit addItemCargoGlobal ["ACRE_PRC152", 1];
+		
+		_unit addItemCargoGlobal ["Toolkit", 1];
+	};
+	
+	
+	case "crate_smaller":
+	{
+		clearWeaponCargoGlobal _unit;
+		clearMagazineCargoGlobal _unit;
+		clearItemCargoGlobal _unit;
+		clearBackpackCargoGlobal _unit;
+		
+		_unit addItemCargoGlobal ["hlc_rifle_FAL5000", 2];
+		_unit addItemCargoGlobal ["hlc_smg_mp510", 1];
+		_unit addItemCargoGlobal ["hgun_Rook40_F", 1];
+
+		_unit addItemCargoGlobal ["B_FieldPack_oli", 1];
+		
+		_unit addItemCargoGlobal ["ACE_fieldDressing", 5];
+		_unit addItemCargoGlobal ["ACE_epinephrine", 3];
+		_unit addItemCargoGlobal ["ACE_morphine", 6];
+		_unit addItemCargoGlobal ["ACE_bloodIV", 1];
+
+		_unit addItemCargoGlobal ["hlc_20Rnd_762x51_B_fal", 5];
+		_unit addItemCargoGlobal ["hlc_20Rnd_762x51_T_fal", 1];
+		_unit addItemCargoGlobal ["hlc_30Rnd_10mm_B_MP5", 5];
+		_unit addItemCargoGlobal ["16Rnd_9x21_Mag", 3];
+		_unit addItemCargoGlobal ["rhsusf_100Rnd_762x51_m62_tracer", 1];
+
+		_unit addItemCargoGlobal ["rhs_mag_rgo", 3];
+		_unit addItemCargoGlobal ["SmokeShell", 2];
+
+		_unit addItemCargoGlobal ["ACRE_PRC343", 2];
+		_unit addItemCargoGlobal ["ACRE_PRC152", 1];
+		
+		_unit addItemCargoGlobal ["Toolkit", 1];
+	};
+
+	
 // LOADOUT: DEFAULT/UNDEFINED (use RIFLEMAN)
    default
    {

@@ -25,9 +25,9 @@ class Header
 // F3 - Loading Screen
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
-onLoadName = "*** Insert mission name here. ***";
-onLoadMission = "Made with the F3_CA Mission Development Framework";
-author = "*** Insert mission author name here. ***";
+onLoadName = "Operation Iron Cordon";
+onLoadMission = "Eyes in the skies hunting some guys.";
+author = "Bubbus";
 loadScreen = "ca_logo_large.jpg";
 
 // ============================================================================================
@@ -164,8 +164,8 @@ class CfgDebriefing
 {
 	class End1
 	{
-		title = "Ending #1";
-		subtitle = "";
+		title = "Successful escape.";
+		subtitle = "A good bit of exercise, that.";
 		description = "Please post to the AAR thread!";
 		// pictureBackground = "";
 		// picture = "";
@@ -174,8 +174,8 @@ class CfgDebriefing
 
 	class End2
 	{
-		title = "Ending #2";
-		subtitle = "";
+		title = "Lone survivor(s)";
+		subtitle = "Better them than me!";
 		description = "Please post to the AAR thread!";
 		// pictureBackground = "";
 		// picture = "";
@@ -184,8 +184,8 @@ class CfgDebriefing
 
 	class End3
 	{
-		title = "Ending #3";
-		subtitle = "";
+		title = "R.I.P.";
+		subtitle = "Yeah, RIP.";
 		description = "Please post to the AAR thread!";
 		// pictureBackground = "";
 		// picture = "";
@@ -362,6 +362,14 @@ class CfgFunctions
 			class addLaptopAction
 			{
 				file = "bub\bub_fnc_addLaptopAction.sqf";
+			};
+			class addBriefcaseAction
+			{
+				file = "bub\bub_fnc_addBriefcaseAction.sqf";
+			};
+			class briefcaseLocated
+			{
+				file = "bub\bub_fnc_briefcaseLocated.sqf";
 			};
 			class addDefuseAction
 			{

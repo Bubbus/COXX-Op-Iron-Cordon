@@ -12,18 +12,18 @@
 ["GrpCSAT_DC",_hq, "DC", "ColorYellow"] spawn f_fnc_localGroupMarker;
 ["GrpCSAT_COV",_ifv, "COV", "ColorYellow"] spawn f_fnc_localGroupMarker;
 
-["GrpCSAT_ASL",_hq, "ASL", "ColorRed"] spawn f_fnc_localGroupMarker;
+["JUDGE",_ft, "JUDGE", "ColorRed"] spawn f_fnc_localGroupMarker;
 ["GrpCSAT_A1",_ft, "A1", "ColorRed"] spawn f_fnc_localGroupMarker;
 ["GrpCSAT_A2",_ft, "A2", "ColorRed"] spawn f_fnc_localGroupMarker;
 ["GrpCSAT_AV",_ifv, "AV", "ColorRed"] spawn f_fnc_localGroupMarker;
 
 ["GrpCSAT_BSL",_hq, "BSL", "ColorBlue"] spawn f_fnc_localGroupMarker;
-["GrpCSAT_B1",_ft, "B1", "ColorBlue"] spawn f_fnc_localGroupMarker;
+["JURY",_ft, "JURY", "ColorBlue"] spawn f_fnc_localGroupMarker;
 ["GrpCSAT_B2",_ft, "B2", "ColorBlue"] spawn f_fnc_localGroupMarker;
 ["GrpCSAT_BV",_ifv, "BV", "ColorBlue"] spawn f_fnc_localGroupMarker;
 
 ["GrpCSAT_CSL",_hq, "CSL", "ColorGreen"] spawn f_fnc_localGroupMarker;
-["GrpCSAT_C1",_ft, "C1", "ColorGreen"] spawn f_fnc_localGroupMarker;
+["HANGMAN",_ft, "HANGMAN", "ColorGreen"] spawn f_fnc_localGroupMarker;
 ["GrpCSAT_C2",_ft, "C2", "ColorGreen"] spawn f_fnc_localGroupMarker;
 ["GrpCSAT_CV",_ifv, "CV", "ColorGreen"] spawn f_fnc_localGroupMarker;
 
@@ -44,9 +44,9 @@
 ["GrpCSAT_IFV2",_ifv, "IFV2", "ColorOrange"] spawn f_fnc_localGroupMarker;
 ["GrpCSAT_TNK1",_tnk, "TNK1", "ColorRed"] spawn f_fnc_localGroupMarker;
 
-["GrpCSAT_TH1",_hel, "TH1", "ColorRed"] spawn f_fnc_localGroupMarker;
+["BEHOLDER",_hel, "BEHOLDER", "ColorRed"] spawn f_fnc_localGroupMarker;
 ["GrpCSAT_TH2",_hel, "TH2", "ColorRed"] spawn f_fnc_localGroupMarker;
-["GrpCSAT_TH3",_hel, "TH3", "ColorBlue"] spawn f_fnc_localGroupMarker;
+["OBSERVER",_hel, "OBSERVER", "ColorBlue"] spawn f_fnc_localGroupMarker;
 ["GrpCSAT_TH4",_hel, "TH4", "ColorBlue"] spawn f_fnc_localGroupMarker;
 ["GrpCSAT_TH5",_hel, "TH5", "ColorGreen"] spawn f_fnc_localGroupMarker;
 ["GrpCSAT_TH6",_hel, "TH6", "ColorGreen"] spawn f_fnc_localGroupMarker;
