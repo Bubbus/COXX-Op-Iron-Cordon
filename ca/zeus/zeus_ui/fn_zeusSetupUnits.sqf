@@ -23,36 +23,6 @@ _units =
 			[
 				"Bad squad",
 				["ftl", "ar", "aar", "lat", "rif", "rif"]
-			],
-		
-			[
-				"CSAT MAT Team",
-				["matag", "matg"]
-			],
-			
-			[
-				"CSAT MMG Team",
-				["mmgag", "mmgg"]
-			],
-			
-			[
-				"CSAT SAM Team",
-				["msamag", "msamg"]
-			],
-			
-			[
-				"CSAT Sniper Team",
-				["sp", "sn"]
-			],
-			
-			[
-				"CSAT Engineer Team",
-				["eng", "eng", "engm", "engm"]
-			],
-			
-			[
-				"CSAT Diver Team",
-				["div", "div", "div", "div"]
 			]
 		]
 	], 
@@ -85,6 +55,12 @@ _units =
 				"Evil Humvee Transport",
 				"rhsusf_m998_w_2dr",
 				["ftl", "med", "lat", "rif", "rif", "rif"]
+			],
+			
+			[
+				"Evil Ural Transport",
+				"rhsgref_cdf_ural",
+				["ftl", "med", "lat", "rif", "rif", "rif", "ar", "aar"]
 			]
 		]
 	]

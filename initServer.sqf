@@ -26,7 +26,7 @@ missionNamespace setVariable ['f_var_radios',3, true]; // Radio system. 0 = none
 missionNamespace setVariable ['f_var_mission_timer',3, true]; // Safestart duration. Value in minutes
 missionNamespace setVariable ['f_param_caching',1000, true]; // Ai Caching distance in meters, 0 = off
 
-missionNamespace setVariable ["f_var_JIP_JIPMenu",true, true]; // Do JIP players get the JIP menu?
+missionNamespace setVariable ["f_var_JIP_JIPMenu",false, true]; // Do JIP players get the JIP menu?
 missionNamespace setVariable ["f_var_JIP_RespawnMenu",false, true]; // Do respawning players get the JIP menu?
 missionNamespace setVariable ["f_var_JIP_RemoveCorpse",false, true]; // Remove the old corpse of respawning players?
 missionNamespace setVariable ["f_var_JIP_Spectate",false, true]; // JIP players go into spectate straight away?

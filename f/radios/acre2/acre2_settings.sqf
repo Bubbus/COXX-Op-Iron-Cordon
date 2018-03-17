@@ -43,13 +43,13 @@ f_radios_settings_acre2_BackpackRadio = "ACRE_PRC117F";
 
 // Defines the languages that exist in the mission.
 // string id, displayname
-f_radios_settings_acre2_languages = [["english","English"]];
+f_radios_settings_acre2_languages = [["bystrican","Bystrican"]];
 
 // defines the language that a player can speak.
 // can define multiple
-f_radios_settings_acre2_language_blufor = ["english"];
-f_radios_settings_acre2_language_opfor = ["english"];
-f_radios_settings_acre2_language_indfor = ["english"];
+f_radios_settings_acre2_language_blufor = ["bystrican"];
+f_radios_settings_acre2_language_opfor = ["bystrican"];
+f_radios_settings_acre2_language_indfor = ["bystrican"];
 
 // Channel names and group defaults
 // first item in the array will correspond to the first channel
@@ -144,7 +144,7 @@ f_radios_settings_acre2_lr_groups_blufor = [
 ];
 
 f_radios_settings_acre2_lr_groups_opfor = [
-    ["GRND COMMAND 1",    ["OBSERVER","BEHOLDER","JUDGE","JURY","HANGMAN"]],
+    ["GRND COMMAND 1",    ["OBSERVER","BEHOLDER","JUDGE","JURY","HANGMAN","ZEUS"]],
     ["GRND COMMAND 2",    ["IFV1","IFV2","IFV3","IFV4","IFV5","IFV6","IFV7","IFV8","TNK1"]],
     ["AIR",  ["TH1","TH2","TH3","T4","TH5","TH6","TH7","TH8","AH1"]],
     ["FAC",	 []],

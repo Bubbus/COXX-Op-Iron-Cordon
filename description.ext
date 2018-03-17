@@ -164,7 +164,7 @@ class CfgDebriefing
 {
 	class End1
 	{
-		title = "Successful escape.";
+		title = "Successful escape";
 		subtitle = "A good bit of exercise, that.";
 		description = "Please post to the AAR thread!";
 		// pictureBackground = "";
@@ -194,8 +194,8 @@ class CfgDebriefing
 
 	class End4
 	{
-		title = "Ending #4";
-		subtitle = "";
+		title = "Lost at sea";
+		subtitle = "But at least you're free.";
 		description = "Please post to the AAR thread!";
 		// pictureBackground = "";
 		// picture = "";
