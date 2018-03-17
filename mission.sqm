@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4739.9287,188.21111,6676.1157};
-		dir[]={-0.18205693,-0.42363486,0.88741857};
-		up[]={-0.085139498,0.90583366,0.4150134};
-		aside[]={0.97966123,-9.9324097e-008,0.20097572};
+		pos[]={951.18494,389.21872,6899.4155};
+		dir[]={0.094871044,-0.47070667,0.87717927};
+		up[]={0.050614037,0.88229144,0.46797982};
+		aside[]={0.99420911,-1.4505349e-007,-0.10752843};
 	};
 };
 binarizationWanted=0;
@@ -9123,6 +9123,7 @@ class Mission
 			};
 			class Attributes
 			{
+				name="OBSERVER";
 			};
 			id=2035;
 			class CustomAttributes
@@ -9401,6 +9402,7 @@ class Mission
 			};
 			class Attributes
 			{
+				name="BEHOLDER";
 			};
 			id=2037;
 			class CustomAttributes
